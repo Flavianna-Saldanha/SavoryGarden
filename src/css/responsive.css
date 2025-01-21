@@ -1,0 +1,65 @@
+@media (max-width: 820px) {
+    header nav {
+        display: none;
+    }
+
+    header .menu {
+        display: flex;
+    }
+
+    .inicio .container {
+        flex-direction: column;
+    }
+
+    .inicio .leftside {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .inicio .rightside {
+        padding-bottom: 50px;
+    }
+
+    .inicio .rightside img {
+        height: 300px;
+    }
+
+    .inicio h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+
+    .opcoes .container {
+        flex-wrap: wrap;
+    }
+
+    .busca {
+        padding-bottom: 30px;
+    }
+
+    .busca .busca-title {
+        text-align: center;
+    }
+
+    .busca .busca-sides {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .separacao-itens {
+        width: 95%;
+        margin: 85px auto;
+    }
+    
+    .separacao-itens .categoria {
+        font-size: 32px;
+    }
+
+    footer .container {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+}
+
